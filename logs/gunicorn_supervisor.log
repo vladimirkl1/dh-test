@@ -1,0 +1,118 @@
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: exec: gunicorn: not found
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: /bin/gunicorn: No such file or directory
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: /bin/gunicorn: No such file or directory
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: /bin/gunicorn: No such file or directory
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: /bin/gunicorn: No such file or directory
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: /bin/gunicorn: No such file or directory
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: /bin/gunicorn: No such file or directory
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: /bin/gunicorn: No such file or directory
+Starting dhru as dhuser
+/dh/bin/gunicorn_start: line 16: bin/activate: No such file or directory
+dirname: missing operand
+Try 'dirname --help' for more information.
+/dh/bin/gunicorn_start: line 27: /bin/gunicorn: No such file or directory
+supervisor: couldn't exec /dh/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /dh/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /dh/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /dh/bin/gunicorn_start: ENOEXEC
+supervisor: child process was not spawned
+Starting dhru as dhuser
+In /dh start venv
+Now venv Activate
+Start Gunicorn
+[2017-10-19 17:58:14 +0300] [653] [INFO] Starting gunicorn 19.7.1
+[2017-10-19 17:58:14 +0300] [653] [INFO] Listening at: unix:/dh/run/gunicorn.sock (653)
+[2017-10-19 17:58:14 +0300] [653] [INFO] Using worker: sync
+[2017-10-19 17:58:14 +0300] [660] [INFO] Booting worker with pid: 660
+[2017-10-19 17:58:14 +0300] [661] [INFO] Booting worker with pid: 661
+[2017-10-19 17:58:14 +0300] [662] [INFO] Booting worker with pid: 662
