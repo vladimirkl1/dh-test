@@ -1,109 +1,3 @@
-nano blog/modelss.py
-#1508401351
-nano blog/models.py
-#1508401776
-nano blog/templates/blog/base.html
-#1508401798
-bin/gunicorn_start
-#1508402084
-nano dhru/settings.py
-#1508402155
-bin/gunicorn_start
-#1508402184
-nano blog/templates/blog/base.html
-#1508402206
-bin/gunicorn_start
-#1508402223
-nano dhru/settings.py
-#1508402254
-bin/gunicorn_start
-#1508402269
-nano dhru/settings.py
-#1508402302
-bin/gunicorn_start
-#1508402319
-nano dhru/settings.py
-#1508402354
-bin/gunicorn_start
-#1508402379
-nano dhru/settings.py
-#1508402397
-bin/gunicorn_start
-#1508402410
-nano dhru/settings.py
-#1508402427
-bin/gunicorn_start
-#1508402462
-nano blog/templates/blog/base.html
-#1508402480
-bin/gunicorn_start
-#1508402505
-nano blog/templates/blog/base.html
-#1508402522
-bin/gunicorn_start
-#1508402536
-nano blog/templates/blog/base.html
-#1508402549
-bin/gunicorn_start
-#1508402570
-nano blog/templates/blog/base.html
-#1508402610
-nano blog/templates/blog/post_list.html
-#1508402664
-nano blog/templates/blog/base.html
-#1508402686
-nano blog/templates/blog/post_list.html
-#1508402703
-bin/gunicorn_start
-#1508402723
-nano blog/templates/blog/post_list.html
-#1508402740
-bin/gunicorn_start
-#1508402762
-ls blog
-#1508402772
-ls blog/static
-#1508402803
-ls blog/static/css
-#1508402821
-nano blog/templates/blog/post_list.html
-#1508402858
-bin/gunicorn_start
-#1508402924
-ls static/blog
-#1508402940
-ls static/blog/css
-#1508402996
-ls dhru
-#1508403008
-ls blog
-#1508403045
-nano blog/templates/blog/post_list.html
-#1508403065
-bin/gunicorn_start
-#1508403092
-nano blog/templates/blog/post_list.html
-#1508403257
-nano dhru/settings.py
-#1508403332
-nano dhru/settings.py
-#1508403388
-bin/gunicorn_start
-#1508403443
-nano dhru/settings.py
-#1508403493
-bin/gunicorn_start
-#1508403518
-nano dhru/settings.py
-#1508403539
-nano dhru/settings.py
-#1508403612
-bin/gunicorn_start
-#1508403638
-nano dhru/settings.py
-#1508403656
-bin/gunicorn_start
-#1508403695
 bin/gunicorn_start
 #1508403700
 nano dhru/settings.py
@@ -994,3 +888,109 @@ source bin/activate
 nano blog/templates/blog/post_list.html
 #1508669387
 nano blog/urls.py
+#1508669422
+source bin/activate 
+#1508669426
+nano blog/urls.py
+#1508669694
+nano blog/views.py
+#1508669771
+bin/gunicorn_start
+#1508669849
+ls blog/templates/blog/
+#1508669866
+touch blog/templates/blog/post_detail.html
+#1508669868
+ls blog/templates/blog/
+#1508669883
+nano blog/templates/blog/post_detail.html
+#1508669974
+bin/gunicorn_start
+#1508670193
+ls blog
+#1508670215
+touch blog/forms.py
+#1508670217
+ls blog
+#1508670247
+nano blog/forms.py
+#1508670277
+nano blog/forms.py
+#1508670389
+nano blog/templates/blog/base.html
+#1508670569
+nano blog/urls.py
+#1508670623
+nano blog/views.py
+#1508670711
+touch blog/templates/blog/post_edit.html
+#1508670729
+nano blog/templates/blog/post_edit.html
+#1508670926
+nano blog/views.py
+#1508671158
+bin/gunicorn_start
+#1508671560
+nano blog/templates/blog/post_detail.html
+#1508671632
+nano blog/urls.py
+#1508671669
+nano blog/views.py
+#1508671894
+bin/gunicorn_start
+#1508672246
+nano blog/templates/blog/post_detail.html
+#1508672703
+bin/gunicorn_start
+#1508672765
+nano blog/templates/blog/post_detail.html
+#1508673434
+bin/gunicorn_start
+#1508673507
+nano blog/templates/blog/post_detail.html
+#1508673537
+nano blog/templates/blog/post_edit.html
+#1508673573
+bin/gunicorn_start
+#1508673669
+nano blog/templates/blog/base.html
+#1508673766
+bin/gunicorn_start
+#1508673801
+nano blog/templates/blog/base.html
+#1508673852
+bin/gunicorn_start
+#1508673873
+nano blog/templates/blog/base.html
+#1508673935
+bin/gunicorn_start
+#1508674064
+nano blog/templates/blog/base.html
+#1508674183
+bin/gunicorn_start
+#1508674227
+nano blog/templates/blog/post_detail.html
+#1508674272
+bin/gunicorn_start
+#1508674544
+git status
+#1508674553
+git add --all .
+#1508674561
+git status
+#1508674614
+git commit -m "Added form, edit."
+#1508674624
+git push
+#1508674868
+git push -f
+#1508675190
+deactivate
+#1508675193
+exit
+#1508682482
+source bin/activate 
+#1508682491
+bin/gunicorn_start
+#1508682820
+nano blog/templates/blog/base.html
