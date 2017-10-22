@@ -1,12 +1,5 @@
-body {
-    padding-left: 15px;
-}
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
-
 .page-header {
-    background-color: #6999ff;
+    background-color: #6899ff;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -15,6 +8,11 @@ body {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    text-shadow: 2px 2px 0 #ccc;
+}
+.discrabe {
+    font-size: 16pt;
+    margin-left: 15px;
 }
 
 .content {
@@ -25,12 +23,8 @@ h1, h2, h3, h4 {
     font-family: 'Roboto';
 }
 
-.post {
-    font-family: 'Roboto';
-    font-size: 12pt;
-}
 .date {
-    color: #99ccff;
+    color: #828282;
 }
 
 .save {
@@ -42,7 +36,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #6999ff;
+    color: #ffffff;
     float: right;
     font-size: 26pt;
     margin-right: 20px;

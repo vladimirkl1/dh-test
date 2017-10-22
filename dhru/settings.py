@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4calyikngz=*_t=00yrvr$detgl9x4@pwl5+8fgu1t++w3%w*x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True # False
+DEBUG = False
 
-ALLOWED_HOSTS = ['www.digital-human.ru', 'digital-human.ru']
+ALLOWED_HOSTS = ['digital-human.ru', 'www.digital-human.ru']
 
 
 # Application definition
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'Europe/Moscow'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
@@ -119,13 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-#STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-#STATICFILES_DIRS = [
- # os.path.join(BASE_DIR, "static/"),
-  #'/dh/static/',
-#]
-#STATICFILES_FINDERS = (
- #   'django.contrib.staticfiles.finders.FileSystemFinder',
-  #  'django.contrib.staticfiles.finders.AppDirectoriesFinder'
-#)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
