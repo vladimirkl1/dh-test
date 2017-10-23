@@ -1,166 +1,3 @@
-bin/gunicorn_start
-#1508403700
-nano dhru/settings.py
-#1508403784
-bin/gunicorn_start
-#1508403831
-nano dhru/settings.py
-#1508403864
-bin/gunicorn_start
-#1508403883
-deactivate
-#1508403887
-exit
-#1508403904
-source bin/activate
-#1508403912
-bin/gunicorn_start
-#1508403958
-nano dhru/settings.py
-#1508404003
-bin/gunicorn_start
-#1508404011
-nano dhru/settings.py
-#1508404215
-bin/gunicorn_start
-#1508404220
-nano dhru/settings.py
-#1508404242
-bin/gunicorn_start
-#1508404245
-nano dhru/settings.py
-#1508404262
-bin/gunicorn_start
-#1508404265
-nano dhru/settings.py
-#1508404295
-bin/gunicorn_start
-#1508404298
-nano dhru/settings.py
-#1508404343
-bin/gunicorn_start
-#1508404362
-nano dhru/settings.py
-#1508404382
-bin/gunicorn_start
-#1508404432
-tree blog
-#1508404481
-mkdir static/blog
-#1508404512
-ls static/blog
-#1508404530
-ls static/blog/css
-#1508404566
-rm -rf static/css
-#1508404585
-tree blog
-#1508404631
-rm -rf blog/static/css
-#1508404637
-tree blog
-#1508404664
-mkdir blog/static/blog
-#1508404669
-mkdir blog/static/blog/css
-#1508404696
-ls static/blog
-#1508404701
-ls static/blog/css
-#1508404774
-cp -a static/blog/css/ blog/static/blog/
-#1508404782
-tree blog
-#1508404807
-nano blog/static/blog/blog.css
-#1508404861
-nano static/blog/blog.css
-#1508405072
-rm blog/static/blog/blog.css
-#1508405088
-nano blog/static/blog/css/blog.css
-#1508405112
-python3 manage.py staticfiles
-#1508405142
-python3 manage.py collectstatic
-#1508405172
-rm -rf static
-#1508405176
-python3 manage.py collectstatic
-#1508405187
-tree static
-#1508405235
-tree blog/templates/
-#1508405260
-tree blog/templates/blog/post_list.html
-#1508405295
-ls blog/templates/blog/
-#1508405320
-nano blog/templates/blog/post_list.html
-#1508405395
-bin/gunicorn_start
-#1508405427
-tree blog/static
-#1508405438
-blog/static
-#1508405438
-`-- blog
-    `-- css
-#1508405438
-        `-- blog.css
-
-#1508405490
-nano blog/templates/blog/post_list.html
-#1508405533
-bin/gunicorn_start
-#1508405551
-nano blog/templates/blog/post_list.html
-#1508405571
-bin/gunicorn_start
-#1508405614
-tree static/blog
-#1508405629
-tree static/blog
-#1508405629
-`-- css
-    `-- blog.css
-#1508405683
-deactivate
-#1508405686
-exit
-#1508405742
-source bin/activate
-#1508405750
-bin/gunicorn_start
-#1508405770
-nano blog/templates/blog/post_list.html
-#1508405815
-bin/gunicorn_start
-#1508405827
-nano blog/templates/blog/post_list.html
-#1508405851
-bin/gunicorn_start
-#1508405914
-tree static
-#1508405936
-deactivate
-#1508405939
-exit
-#1508417476
-source bin/activate
-#1508417506
-nano dhru/settings.py
-#1508417523
-bin/gunicorn_start
-#1508417571
-nano blog/templates/blog/post_list.html
-#1508417596
-bin/gunicorn_start
-#1508417614
-nano dhru/settings.py
-#1508417648
-bin/gunicorn_start
-#1508417664
 nano dhru/settings.py
 #1508417708
 bin/gunicorn_start
@@ -994,3 +831,169 @@ source bin/activate
 bin/gunicorn_start
 #1508682820
 nano blog/templates/blog/base.html
+#1508682852
+source bin/activate 
+#1508682854
+nano blog/templates/blog/base.html
+#1508683120
+bin/gunicorn_start
+#1508685561
+nano blog/templates/blog/base.html
+#1508685618
+nano blog/templates/blog/base.html
+#1508685876
+nano blog/templates/blog/base.html
+#1508685928
+nano blog/templates/blog/base.html
+#1508686019
+git status
+#1508686035
+git add --all .
+#1508686047
+git status
+#1508686086
+git commit -m "Edit base.html."
+#1508686101
+git push
+#1508686270
+nano blog/templates/blog/base.html
+#1508686309
+bin/gunicorn_start
+#1508686678
+nano blog/static/blog/css/blog.css
+#1508686726
+bin/gunicorn_start
+#1508686790
+nano blog/static/blog/css/blog.css
+#1508686802
+bin/gunicorn_start
+#1508686914
+nano blog/static/blog/css/blog.css
+#1508686927
+bin/gunicorn_start
+#1508687150
+touch blog/templates/blog/about.html
+#1508687160
+nano blog/templates/blog/about.html
+#1508687381
+nano blog/templates/blog/base.html
+#1508687467
+bin/gunicorn_start
+#1508688182
+nano blog/templates/blog/base.html
+#1508688204
+nano blog/templates/blog/about.html
+#1508688226
+bin/gunicorn_start
+#1508688627
+nano blog/templates/blog/about.html
+#1508688658
+nano blog/templates/blog/base.html
+#1508688687
+bin/gunicorn_start
+#1508688769
+nano blog/templates/blog/base.html
+#1508688829
+nano blog/templates/blog/about.html
+#1508688863
+nano blog/static/blog/css/blog.css
+#1508688886
+bin/gunicorn_start
+#1508689120
+nano blog/templates/blog/about.html
+#1508689142
+nano blog/templates/blog/base.html
+#1508689158
+bin/gunicorn_start
+#1508689344
+nano blog/templates/blog/base.html
+#1508689495
+bin/gunicorn_start
+#1508689879
+nano blog/templates/blog/about.html
+#1508689905
+nano blog/templates/blog/base.html
+#1508689961
+bin/gunicorn_start
+#1508689993
+nano blog/templates/blog/base.html
+#1508690126
+nano blog/templates/blog/base.html
+#1508690159
+bin/gunicorn_start
+#1508690192
+nano blog/static/blog/css/blog.css
+#1508690242
+nano blog/templates/blog/base.html
+#1508690285
+nano blog/static/blog/css/blog.css
+#1508690290
+nano blog/templates/blog/base.html
+#1508690336
+bin/gunicorn_start
+#1508690358
+nano blog/templates/blog/base.html
+#1508690504
+bin/gunicorn_start
+#1508690535
+nano blog/templates/blog/base.html
+#1508690621
+bin/gunicorn_start
+#1508690753
+nano blog/templates/blog/base.html
+#1508690777
+bin/gunicorn_start
+#1508690992
+nano blog/templates/blog/base.html
+#1508691032
+bin/gunicorn_start
+#1508691082
+nano blog/static/blog/css/blog.css
+#1508691115
+bin/gunicorn_start
+#1508691385
+nano blog/static/blog/css/blog.css
+#1508691499
+bin/gunicorn_start
+#1508691814
+nano blog/static/blog/css/blog.css
+#1508691847
+nano blog/templates/blog/base.html
+#1508691968
+nano blog/static/blog/css/blog.css
+#1508692109
+ls
+#1508692125
+ls blog
+#1508692149
+ls blog
+#1508692153
+ls
+#1508692182
+tree static
+#1508692342
+mkdir media
+#1508692362
+mkdir media/blog
+#1508692402
+mkdir media/blog/img
+#1508692417
+tree media
+#1508692458
+nano dhru/settings.py
+#1508692499
+nano blog/templates/blog/base.html
+#1508692833
+deactivate
+#1508692837
+exit
+#1508770685
+source bin/activate
+#1508770776
+ls blog/static/blog/css
+#1508770829
+cp blog/static/blog/css/blog.css static/blog/css/blog.css
+#1508770851
+bin/gunicorn_start
+#1508770973
+nano static/blog/css/blog.css
