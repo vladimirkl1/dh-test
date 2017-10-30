@@ -116,3 +116,43 @@ Start Gunicorn
 [2017-10-19 17:58:14 +0300] [660] [INFO] Booting worker with pid: 660
 [2017-10-19 17:58:14 +0300] [661] [INFO] Booting worker with pid: 661
 [2017-10-19 17:58:14 +0300] [662] [INFO] Booting worker with pid: 662
+Starting dhru as dhuser
+In /dh start venv
+Now venv Activate
+Start Gunicorn
+[2017-10-29 13:49:19 +0300] [13693] [INFO] Starting gunicorn 19.7.1
+[2017-10-29 13:49:19 +0300] [13693] [INFO] Listening at: unix:/dh/run/gunicorn.sock (13693)
+[2017-10-29 13:49:19 +0300] [13693] [INFO] Using worker: sync
+[2017-10-29 13:49:19 +0300] [13700] [INFO] Booting worker with pid: 13700
+[2017-10-29 13:49:19 +0300] [13701] [INFO] Booting worker with pid: 13701
+[2017-10-29 13:49:19 +0300] [13702] [INFO] Booting worker with pid: 13702
+Starting dhru as dhuser
+In /dh start venv
+Now venv Activate
+Start Gunicorn
+[2017-10-29 13:50:35 +0300] [13716] [INFO] Starting gunicorn 19.7.1
+[2017-10-29 13:50:35 +0300] [13716] [INFO] Listening at: unix:/dh/run/gunicorn.sock (13716)
+[2017-10-29 13:50:35 +0300] [13716] [INFO] Using worker: sync
+[2017-10-29 13:50:35 +0300] [13723] [INFO] Booting worker with pid: 13723
+[2017-10-29 13:50:35 +0300] [13725] [INFO] Booting worker with pid: 13725
+[2017-10-29 13:50:35 +0300] [13726] [INFO] Booting worker with pid: 13726
+Starting dhru as dhuser
+In /dh start venv
+Now venv Activate
+Start Gunicorn
+[2017-10-29 13:52:01 +0300] [13743] [INFO] Starting gunicorn 19.7.1
+[2017-10-29 13:52:01 +0300] [13743] [INFO] Listening at: unix:/dh/run/gunicorn.sock (13743)
+[2017-10-29 13:52:01 +0300] [13743] [INFO] Using worker: sync
+[2017-10-29 13:52:01 +0300] [13750] [INFO] Booting worker with pid: 13750
+[2017-10-29 13:52:01 +0300] [13752] [INFO] Booting worker with pid: 13752
+[2017-10-29 13:52:01 +0300] [13753] [INFO] Booting worker with pid: 13753
+Starting dhru as dhuser
+In /dh start venv
+Now venv Activate
+Start Gunicorn
+[2017-10-29 13:52:56 +0300] [13779] [INFO] Starting gunicorn 19.7.1
+[2017-10-29 13:52:56 +0300] [13779] [INFO] Listening at: unix:/dh/run/gunicorn.sock (13779)
+[2017-10-29 13:52:56 +0300] [13779] [INFO] Using worker: sync
+[2017-10-29 13:52:56 +0300] [13786] [INFO] Booting worker with pid: 13786
+[2017-10-29 13:52:56 +0300] [13788] [INFO] Booting worker with pid: 13788
+[2017-10-29 13:52:56 +0300] [13789] [INFO] Booting worker with pid: 13789
