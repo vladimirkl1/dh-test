@@ -1,775 +1,3 @@
-nano dhru/settings.py
-#1508480396
-nano dhru/views.py
-#1508480407
-ls dhru
-#1508480482
-nano blog/views.py
-#1508480606
-nano blog/views.py
-#1508481051
-bin/gunicorn_start
-#1508481067
-tree blog
-#1508481079
-nano blog/views.py
-#1508481162
-nano blog/templates/blog/base.html
-#1508481188
-bin/gunicorn_start
-#1508481228
-nano blog/templates/blog/post_list.html
-#1508481282
-nano blog/templates/blog/post_list.html
-#1508481374
-bin/gunicorn_start
-#1508481398
-nano blog/templates/blog/post_list.html
-#1508481444
-bin/gunicorn_start
-#1508481483
-nano blog/templates/blog/post_list.html
-#1508481503
-bin/gunicorn_start
-#1508481548
-nano blog/templates/blog/post_list.html
-#1508481653
-bin/gunicorn_start
-#1508481718
-nano dhru/settings.py
-#1508481754
-nano dhru/urls.py
-#1508482983
-nano dhru/settings.py
-#1508483003
-bin/gunicorn_start
-#1508483020
-nano dhru/settings.py
-#1508483387
-ls bin
-#1508483400
-ls bin/python3.6
-#1508483422
-ls bin/python3
-#1508483425
-ls bin/python
-#1508483462
-sudo ls bin/python3.6
-#1508484673
-nano dhru/settings.py
-#1508484701
-bin/gunicorn_start
-#1508484774
-nano dhru/urls.py
-#1508484815
-nano dhru/views.py
-#1508484825
-ls dhru
-#1508484859
-nano dhru/wsgi.py
-#1508484886
-ls blog
-#1508484909
-nano blog/models.py
-#1508484958
-nano blog/viws.py
-#1508484966
-nano blog/views.py
-#1508485041
-nano blog/urls.py
-#1508485074
-bin/gunicorn_start
-#1508485136
-nano dhru/settings.py
-#1508485203
-nano blog/templates/blog/post_list.html
-#1508485235
-bin/gunicorn_start
-#1508485294
-nano dhru/settings.py
-#1508485311
-bin/gunicorn_start
-#1508491164
-nano dhru/settings.py
-#1508491319
-bin/gunicorn_start
-#1508491445
-nano blog/models.py
-#1508491823
-deactivate
-#1508491828
-exit
-#1508494040
-sorce bin/activate
-#1508494053
-source bin/activate
-#1508494065
-ls dhru
-#1508494090
-nano dhru/wsgi.py
-#1508494174
-deactivate
-#1508494178
-exit
-#1508494713
-source bin/activate
-#1508494741
-mkdir run/uwsgi
-#1508494747
-ls run
-#1508494761
-ls
-#1508494819
-ls static
-#1508494840
-ls dhenv
-#1508494851
-ls dhvenv
-#1508494862
-ls dhvenv/bin
-#1508494874
-ls dhvenv/bin/python3
-#1508494966
-touch run/gunicorn.sock
-#1508494980
-ls -l run 
-#1508495011
-chmod 775 run/gunicorn.sock
-#1508495014
-ls -l run 
-#1508495075
-touch run/uwsgi/blog.sock
-#1508495095
-chmod 775 run/uwsgi/blog.sock
-#1508495230
-bin/gunicorn_start
-#1508495333
-rm -rf run/uwsgi
-#1508495339
-bin/gunicorn_start
-#1508495380
-rm  run/gunicorn.sock
-#1508495383
-bin/gunicorn_start
-#1508495549
-pip3 install uwsgi
-#1508495972
-bin/gunicorn_start
-#1508495995
-deactivate
-#1508496001
-exit
-#1508496035
-source bin/activate
-#1508496041
-bin/gunicorn_start
-#1508496512
-deactivate
-#1508496530
-git init
-#1508496773
-git config --global user.name vladimirkl1
-#1508496788
-git config --global user.email vladimirkl1@gmail.com
-#1508496867
-touch .gitignore
-#1508496876
-nano .gitignore
-#1508496975
-git status
-#1508497012
-git add --all .
-#1508497051
-git commit -m "DH app, first commit"
-#1508497369
-git remote add origin https://github.com/<your-github-username>/my-first-blog.git
-#1508497415
-git remote add origin https://github.com/vladimirkl1/dh-test.git
-#1508497418
-git push -u origin master
-#1508502505
-source bin/activate
-#1508502523
-nano blog/urls.py
-#1508502552
-bin/gunicorn_start
-#1508502998
-nano blog/urls.py
-#1508508268
-nano dhru/settings.py
-#1508508383
-bin/gunicorn_start
-#1508508427
-nano dhru/settings.py
-#1508508472
-nano blog/templates/post_list.html
-#1508508497
-nano blog/templates/blog/post_list.html
-#1508508533
-bin/gunicorn_start
-#1508508591
-nano dhru/settings.py
-#1508508632
-bin/gunicorn_start
-#1508508666
-ls logs
-#1508508694
-nano logs/nginx-e.log
-#1508508848
-nano blog/templates/blog/post_list.html
-#1508508878
-bin/gunicorn_start
-#1508508892
-nano blog/templates/blog/post_list.html
-#1508508909
-bin/gunicorn_start
-#1508508933
-nano blog/templates/blog/post_list.html
-#1508508983
-bin/gunicorn_start
-#1508509031
-nano blog/templates/blog/post_list.html
-#1508509053
-ls lib
-#1508509088
-ls lib/python3.6/site-packages
-#1508509156
-ls lib/python3.6/site-packages/django
-#1508509187
-ls lib/python3.6/site-packages/django/http
-#1508509558
-chmod -R 777 dhvenv/
-#1508509576
-ls -l
-#1508509678
-nano dhru/settings.py
-#1508509717
-bin/gunicorn_start
-#1508509764
-nano dhru/settings.py
-#1508509781
-bin/gunicorn_start
-#1508511160
-bin/gunicorn_startdeactivate
-#1508511170
-deactivate
-#1508511174
-exit
-#1508524818
-source bin/activate
-#1508524888
-nano dhru/settings.py
-#1508525004
-nano dhru/urls.py
-#1508525135
-nano blog/urls.py
-#1508525162
-source bin/activate
-#1508525166
-nano blog/urls.py
-#1508525239
-nano blog/views.py
-#1508525283
-nano blog/models.py
-#1508525356
-nano blog/templates/blog/post_list.html
-#1508525433
-nano blog/static/blog/css/blog.css
-#1508525487
-bin/gunicorn_start
-#1508525532
-nano dhru/settings.py
-#1508525549
-bin/gunicorn_start
-#1508525584
-bin/gunicorn_start
-#1508525596
-deactivate
-#1508525601
-exit
-#1508525614
-source bin/activate
-#1508525617
-bin/gunicorn_start
-#1508525764
-deactivate
-#1508525767
-exit
-#1508573045
-source bin/activate
-#1508573052
-bin/gunicorn_start
-#1508573131
-nano blog/static/blog/css/blog.css
-#1508573243
-bin/gunicorn_start
-#1508573273
-nano blog/static/blog/css/blog.css
-#1508573308
-nano blog/templates/blog/post_list.html
-#1508573403
-nano blog/static/blog/css/blog.css
-#1508573609
-bin/gunicorn_start
-#1508573624
-nano blog/static/blog/css/blog.css
-#1508573759
-bin/gunicorn_start
-#1508573779
-nano blog/templates/blog/post_list.html
-#1508573825
-bin/gunicorn_start
-#1508573851
-nano blog/static/blog/css/blog.css
-#1508573977
-nano blog/templates/blog/post_list.html
-#1508573997
-bin/gunicorn_start
-#1508574607
-nano blog/static/blog/css/blog.css
-#1508574636
-bin/gunicorn_start
-#1508575807
-nano blog/templates/blog/post_list.html
-#1508575849
-bin/gunicorn_start
-#1508586414
-nano blog/static/blog/css/blog.css
-#1508587061
-nano blog/templates/blog/post_list.html
-#1508587087
-bin/gunicorn_start
-#1508587140
-nano blog/templates/blog/post_list.html
-#1508587236
-bin/gunicorn_start
-#1508587260
-nano blog/templates/blog/post_list.html
-#1508587268
-nano blog/static/blog/css/blog.css
-#1508587292
-bin/gunicorn_start
-#1508587358
-nano blog/static/blog/css/blog.css
-#1508587393
-bin/gunicorn_start
-#1508587592
-bin/gunicorn_start
-#1508587626
-nano blog/static/blog/css/blog.css
-#1508587685
-nano blog/templates/blog/post_list.html
-#1508587715
-bin/gunicorn_start
-#1508587736
-nano blog/static/blog/css/blog.css
-#1508587767
-nano blog/templates/blog/post_list.html
-#1508587844
-bin/gunicorn_start
-#1508587933
-deactivate
-#1508587936
-exit
-#1508654719
-source bin/activate
-#1508654753
-ls blog/templates/blog/
-#1508654854
-nano blog/templates/blog/base.html
-#1508654860
-nano blog/templates/blog/post_list.html
-#1508654964
-source bin/activate
-#1508655006
-deactivate
-#1508655010
-git status
-#1508655059
-git add --all .
-#1508655110
-git commit -m "DH-test app, 2 commit"
-#1508655211
-git status
-#1508655531
-git commit -m "Changed urls, templates, css."
-#1508655568
-git push
-#1508655666
-git config --global push.default matching
-#1508655675
-git config --global push.default simple
-#1508655680
-git push
-#1508655704
-git push
-#1508655761
-git config --global push.default matching
-#1508655767
-git config --global push.default simple
-#1508655772
-git push
-#1508655988
-git push -f
-#1508656466
-nano blog/templates/blog/post_list.html
-#1508656505
-nano blog/templates/blog/base.html
-#1508656586
-nano blog/templates/blog/base.html
-#1508656631
-nano blog/templates/blog/base.html
-#1508656682
-nano blog/templates/blog/base.html
-#1508656803
-nano blog/templates/blog/post_list.html
-#1508656921
-bin/gunicorn_start
-#1508656979
-nano blog/templates/blog/post_list.html
-#1508656987
-nano blog/templates/blog/base.html
-#1508657069
-bin/gunicorn_start
-#1508657153
-nano blog/static/blog/css/blog.css
-#1508657179
-bin/gunicorn_start
-#1508657230
-bin/gunicorn_start
-#1508657257
-nano static/blog/css/blog.css
-#1508657287
-bin/gunicorn_start
-#1508657304
-nano static/blog/css/blog.css
-#1508657321
-bin/gunicorn_start
-#1508657338
-nano static/blog/css/blog.css
-#1508657355
-bin/gunicorn_start
-#1508657367
-nano static/blog/css/blog.css
-#1508657408
-bin/gunicorn_start
-#1508657422
-nano static/blog/css/blog.css
-#1508657444
-bin/gunicorn_start
-#1508657467
-nano static/blog/css/blog.css
-#1508657523
-nano blog/templates/blog/base.html
-#1508657546
-bin/gunicorn_start
-#1508657562
-nano blog/templates/blog/base.html
-#1508657585
-deactivate
-#1508657617
-sorce bin/activate 
-#1508657631
-source bin/activate 
-#1508657636
-nano blog/templates/blog/base.html
-#1508657655
-bin/gunicorn_start
-#1508657671
-deactivate
-#1508657675
-exit
-#1508669065
-source bin/activate 
-#1508669119
-nano blog/templates/blog/post_list.html
-#1508669387
-nano blog/urls.py
-#1508669422
-source bin/activate 
-#1508669426
-nano blog/urls.py
-#1508669694
-nano blog/views.py
-#1508669771
-bin/gunicorn_start
-#1508669849
-ls blog/templates/blog/
-#1508669866
-touch blog/templates/blog/post_detail.html
-#1508669868
-ls blog/templates/blog/
-#1508669883
-nano blog/templates/blog/post_detail.html
-#1508669974
-bin/gunicorn_start
-#1508670193
-ls blog
-#1508670215
-touch blog/forms.py
-#1508670217
-ls blog
-#1508670247
-nano blog/forms.py
-#1508670277
-nano blog/forms.py
-#1508670389
-nano blog/templates/blog/base.html
-#1508670569
-nano blog/urls.py
-#1508670623
-nano blog/views.py
-#1508670711
-touch blog/templates/blog/post_edit.html
-#1508670729
-nano blog/templates/blog/post_edit.html
-#1508670926
-nano blog/views.py
-#1508671158
-bin/gunicorn_start
-#1508671560
-nano blog/templates/blog/post_detail.html
-#1508671632
-nano blog/urls.py
-#1508671669
-nano blog/views.py
-#1508671894
-bin/gunicorn_start
-#1508672246
-nano blog/templates/blog/post_detail.html
-#1508672703
-bin/gunicorn_start
-#1508672765
-nano blog/templates/blog/post_detail.html
-#1508673434
-bin/gunicorn_start
-#1508673507
-nano blog/templates/blog/post_detail.html
-#1508673537
-nano blog/templates/blog/post_edit.html
-#1508673573
-bin/gunicorn_start
-#1508673669
-nano blog/templates/blog/base.html
-#1508673766
-bin/gunicorn_start
-#1508673801
-nano blog/templates/blog/base.html
-#1508673852
-bin/gunicorn_start
-#1508673873
-nano blog/templates/blog/base.html
-#1508673935
-bin/gunicorn_start
-#1508674064
-nano blog/templates/blog/base.html
-#1508674183
-bin/gunicorn_start
-#1508674227
-nano blog/templates/blog/post_detail.html
-#1508674272
-bin/gunicorn_start
-#1508674544
-git status
-#1508674553
-git add --all .
-#1508674561
-git status
-#1508674614
-git commit -m "Added form, edit."
-#1508674624
-git push
-#1508674868
-git push -f
-#1508675190
-deactivate
-#1508675193
-exit
-#1508682482
-source bin/activate 
-#1508682491
-bin/gunicorn_start
-#1508682820
-nano blog/templates/blog/base.html
-#1508682852
-source bin/activate 
-#1508682854
-nano blog/templates/blog/base.html
-#1508683120
-bin/gunicorn_start
-#1508685561
-nano blog/templates/blog/base.html
-#1508685618
-nano blog/templates/blog/base.html
-#1508685876
-nano blog/templates/blog/base.html
-#1508685928
-nano blog/templates/blog/base.html
-#1508686019
-git status
-#1508686035
-git add --all .
-#1508686047
-git status
-#1508686086
-git commit -m "Edit base.html."
-#1508686101
-git push
-#1508686270
-nano blog/templates/blog/base.html
-#1508686309
-bin/gunicorn_start
-#1508686678
-nano blog/static/blog/css/blog.css
-#1508686726
-bin/gunicorn_start
-#1508686790
-nano blog/static/blog/css/blog.css
-#1508686802
-bin/gunicorn_start
-#1508686914
-nano blog/static/blog/css/blog.css
-#1508686927
-bin/gunicorn_start
-#1508687150
-touch blog/templates/blog/about.html
-#1508687160
-nano blog/templates/blog/about.html
-#1508687381
-nano blog/templates/blog/base.html
-#1508687467
-bin/gunicorn_start
-#1508688182
-nano blog/templates/blog/base.html
-#1508688204
-nano blog/templates/blog/about.html
-#1508688226
-bin/gunicorn_start
-#1508688627
-nano blog/templates/blog/about.html
-#1508688658
-nano blog/templates/blog/base.html
-#1508688687
-bin/gunicorn_start
-#1508688769
-nano blog/templates/blog/base.html
-#1508688829
-nano blog/templates/blog/about.html
-#1508688863
-nano blog/static/blog/css/blog.css
-#1508688886
-bin/gunicorn_start
-#1508689120
-nano blog/templates/blog/about.html
-#1508689142
-nano blog/templates/blog/base.html
-#1508689158
-bin/gunicorn_start
-#1508689344
-nano blog/templates/blog/base.html
-#1508689495
-bin/gunicorn_start
-#1508689879
-nano blog/templates/blog/about.html
-#1508689905
-nano blog/templates/blog/base.html
-#1508689961
-bin/gunicorn_start
-#1508689993
-nano blog/templates/blog/base.html
-#1508690126
-nano blog/templates/blog/base.html
-#1508690159
-bin/gunicorn_start
-#1508690192
-nano blog/static/blog/css/blog.css
-#1508690242
-nano blog/templates/blog/base.html
-#1508690285
-nano blog/static/blog/css/blog.css
-#1508690290
-nano blog/templates/blog/base.html
-#1508690336
-bin/gunicorn_start
-#1508690358
-nano blog/templates/blog/base.html
-#1508690504
-bin/gunicorn_start
-#1508690535
-nano blog/templates/blog/base.html
-#1508690621
-bin/gunicorn_start
-#1508690753
-nano blog/templates/blog/base.html
-#1508690777
-bin/gunicorn_start
-#1508690992
-nano blog/templates/blog/base.html
-#1508691032
-bin/gunicorn_start
-#1508691082
-nano blog/static/blog/css/blog.css
-#1508691115
-bin/gunicorn_start
-#1508691385
-nano blog/static/blog/css/blog.css
-#1508691499
-bin/gunicorn_start
-#1508691814
-nano blog/static/blog/css/blog.css
-#1508691847
-nano blog/templates/blog/base.html
-#1508691968
-nano blog/static/blog/css/blog.css
-#1508692109
-ls
-#1508692125
-ls blog
-#1508692149
-ls blog
-#1508692153
-ls
-#1508692182
-tree static
-#1508692342
-mkdir media
-#1508692362
-mkdir media/blog
-#1508692402
-mkdir media/blog/img
-#1508692417
-tree media
-#1508692458
-nano dhru/settings.py
-#1508692499
-nano blog/templates/blog/base.html
-#1508692833
-deactivate
-#1508692837
-exit
-#1508770685
-source bin/activate
-#1508770776
-ls blog/static/blog/css
-#1508770829
-cp blog/static/blog/css/blog.css static/blog/css/blog.css
-#1508770851
-bin/gunicorn_start
-#1508770973
-nano static/blog/css/blog.css
-#1508771010
-source bin/activate
-#1508771016
-nano static/blog/css/blog.css
-#1508771052
-nano blog/templates/blog/base.html
-#1508771102
-cp blog/static/blog/css/blog.css static/blog/css/blog.css
-#1508771108
-bin/gunicorn_start
-#1508771210
-ls blog/templates/blog/
-#1508771228
 nano blog/templates/blog/about.html
 #1508771253
 nano blog/templates/blog/base.html
@@ -997,3 +225,775 @@ source bin/activate
 deactivate
 #1509362250
 git status
+#1509362283
+source bin/activate
+#1509362288
+deactivate
+#1509362290
+git status
+#1509362347
+nano .gitignore
+#1509362439
+git add --all .
+#1509362448
+git status
+#1509362517
+git commit -m "Changed befor SocialAuth."
+#1509362528
+git push
+#1509362723
+git push -f
+#1509363194
+nano .gitignore
+#1509363246
+source bin/activate
+#1509363276
+bin/gunicorn_start
+#1509363313
+nano .gitignore
+#1509363328
+bin/gunicorn_start
+#1509363347
+bin/gunicorn_stop
+#1509363353
+bin/gunicorn_start
+#1509363412
+deactivate
+#1509363416
+exit
+#1509363445
+source bin/activate
+#1509363448
+bin/gunicorn_start
+#1509363454
+deactivate
+#1509363456
+exit
+#1509363582
+source bin/activate
+#1509363585
+bin/gunicorn_start
+#1509363645
+bin/gunicorn_stop
+#1509363673
+nano bin/gunicorn_stop
+#1509363709
+bin/gunicorn_start
+#1509363721
+bin/gunicorn_stop
+#1509363921
+rm  -rf dhru/urls.py/dh/lib/python3.6/site-packages/social_auth
+#1509363938
+ls dhru/urls.py/dh/lib/python3.6/site-packages/
+#1509363981
+deactivate
+#1509363986
+exit
+#1509364139
+source bin/activate
+#1509364153
+ls lib/python3.6/site-packages/
+#1509364275
+rm -rf dh/lib/python3.6/site-packages/social_auth
+#1509364278
+ls lib/python3.6/site-packages/
+#1509364307
+rm -rf lib/python3.6/site-packages/social_auth
+#1509364311
+ls lib/python3.6/site-packages/
+#1509364333
+nano dhru/settings.py
+#1509364403
+bin/gunicorn_stop
+#1509364413
+bin/gunicorn_start
+#1509364468
+source bin/activate
+#1509364478
+bin/gunicorn_stop
+#1509364496
+bin/gunicorn_start
+#1509364591
+nano lib/python3.6/importlib/__init__.py
+#1509364691
+ls lib/python3.6/importlib/
+#1509364703
+bin/gunicorn_start
+#1509364795
+nano dhru/settings.py
+#1509364920
+nano dhru/urlss.py
+#1509364929
+nano dhru/urls.py
+#1509364960
+nano dhru/views.py
+#1509364981
+ls dhru/
+#1509365004
+ls blog/
+#1509365020
+nano blog/views.py
+#1509365038
+nano blog/urls.py
+#1509365060
+nano blog/models.py
+#1509365077
+bin/gunicorn_start
+#1509365664
+pip3 install django-allauth
+#1509365839
+nano dhru/settings.py
+#1509365882
+nano dhru/settings.py
+#1509366433
+nano dhru/settings.py
+#1509366888
+nano dhru/urls.py
+#1509366995
+nano dhru/urls.py
+#1509367358
+bin/gunicorn_start
+#1509367453
+ls
+#1509367490
+python3 manage.py migrate
+#1509367517
+bin/gunicorn_start
+#1509368073
+tree blog/
+#1509368114
+nano blog/templates/blog/base.html
+#1509368200
+bin/gunicorn_start
+#1509368255
+nano dhru/settings.py
+#1509368280
+bin/gunicorn_start
+#1509368349
+nano dhru/settings.py
+#1509368446
+nano dhru/urls.py
+#1509368514
+nano dhru/urls.py
+#1509368528
+bin/gunicorn_start
+#1509369128
+nano dhru/settings.py
+#1509369380
+nano dhru/settings.py
+#1509369525
+nano dhru/settings.py
+#1509369698
+nano dhru/urls.py
+#1509370046
+bin/gunicorn_start
+#1509370156
+bin/gunicorn_start
+#1509370231
+bin/gunicorn_start
+#1509371538
+nano dhru/settings.py
+#1509371665
+bin/gunicorn_start
+#1509371951
+nano dhru/settings.py
+#1509372002
+nano dhru/settings.py
+#1509373901
+mkdir blog/templates/account
+#1509373944
+ls blog/templates/
+#1509373973
+touch blog/templates/account/base.html
+#1509374048
+touch blog/templates/account/login.html
+#1509374056
+touch blog/templates/account/logout.html
+#1509374067
+bin/gunicorn_start
+#1509374115
+nano blog/templates/account/base.html
+#1509374162
+nano blog/templates/account/login.html
+#1509374197
+nano blog/templates/account/logout.html
+#1509374255
+bin/gunicorn_start
+#1509374449
+nano dhru/urls.py
+#1509374465
+bin/gunicorn_start
+#1509374689
+nano dhru/urls.py
+#1509374706
+bin/gunicorn_start
+#1509374774
+rm -rf blog/templates/account
+#1509374790
+ls blog/templates
+#1509374800
+ls
+#1509374818
+bin/gunicorn_start
+#1509375844
+bin/gunicorn_start
+#1509375932
+ls
+#1509375965
+nano dhru/settings.py
+#1509376333
+ls
+#1509376359
+tree dhru
+#1509376381
+tree blog
+#1509376453
+ls media
+#1509376467
+tree media
+#1509378073
+bin/gunicorn_start
+#1509378216
+nano dhru/settings.py
+#1509378235
+bin/gunicorn_start
+#1509378251
+nano dhru/settings.py
+#1509378282
+bin/gunicorn_start
+#1509378310
+nano dhru/settings.py
+#1509378419
+bin/gunicorn_start
+#1509378437
+nano dhru/settings.py
+#1509381746
+nano dhru/settings.py
+#1509381886
+nano dhru/urls.py
+#1509381905
+bin/gunicorn_start
+#1509382127
+bin/gunicorn_start
+#1509382181
+deactivate
+#1509382185
+exit
+#1509382214
+source bin/activate
+#1509382221
+bin/gunicorn_start
+#1509382250
+deactivate
+#1509382253
+exit
+#1509387463
+source bin/activate
+#1509387469
+ls
+#1509387526
+mkdir templates
+#1509387546
+mkdir templates/account
+#1509387608
+touch templates/account/login.html
+#1509387622
+touch templates/account/logout.html
+#1509387648
+touch templates/account/base.html
+#1509387669
+nano templates/account/login.html
+#1509387708
+nano templates/account/logout.html
+#1509387773
+nano templates/account/base.html
+#1509387831
+nano dhru/urls.py
+#1509387866
+nano dhru/settings.py
+#1509388122
+nano dhru/settings.py
+#1509388200
+source bin/activate
+#1509388205
+nano dhru/settings.py
+#1509388331
+source bin/activate
+#1509388337
+nano dhru/settings.py
+#1509388772
+bin/gunicorn_start
+#1509388878
+nano dhru/settings.py
+#1509389173
+source bin/activate
+#1509389176
+nano dhru/settings.py
+#1509389215
+bin/gunicorn_start
+#1509389357
+nano dhru/settings.py
+#1509389393
+bin/gunicorn_start
+#1509389530
+touch templates/account/account_inactive.html
+#1509389554
+touch templates/account/email.html
+#1509389572
+touch templates/account/email_confirm.html
+#1509389592
+touch templates/account/password_change.html
+#1509389613
+touch templates/account/password_reset.html
+#1509389634
+touch templates/account/password_reset_done.html
+#1509389655
+touch templates/account/password_reset_from_key.html
+#1509389678
+touch templates/account/password_reset_from_key_done.html
+#1509389699
+touch templates/account/password_set.html
+#1509389740
+touch templates/account/signup.html
+#1509389759
+touch templates/account/signup_closed.html
+#1509389783
+touch templates/account/verification_sent.html
+#1509389806
+touch templates/account/verified_email_required.html
+#1509389821
+bin/gunicorn_start
+#1509390653
+deactivate
+#1509390657
+exit
+#1509390697
+source bin/activate
+#1509390702
+bin/gunicorn_start
+#1509390744
+ls
+#1509390768
+ls static
+#1509390829
+exit
+#1509415888
+source bin/activate
+#1509415918
+nano bin/gunicorn_start
+#1509416086
+nano /dh/run/
+#1509416139
+nano /dh/run/gunicorn.sock
+#1509416185
+nano dhru/settings.py
+#1509416251
+bin/gunicorn_start
+#1509416276
+nano bin/gunicorn_start
+#1509416304
+pwd
+#1509416314
+nano bin/gunicorn_start
+#1509416338
+bin/gunicorn_start
+#1509416363
+mkdir run
+#1509416382
+ls
+#1509416390
+ls run
+#1509416419
+touch run/gunicorn.sock
+#1509416423
+ls run
+#1509416430
+bin/gunicorn_start
+#1509416457
+nano bin/gunicorn_start
+#1509416474
+bin/gunicorn_start
+#1509416515
+nano bin/gunicorn_start
+#1509416532
+bin/gunicorn_start
+#1509416560
+nano bin/gunicorn_start
+#1509416615
+bin/gunicorn_start
+#1509416627
+nano bin/gunicorn_start
+#1509416821
+ls -l
+#1509416873
+source bin/activate
+#1509416888
+ls -l
+#1509416923
+ls -l run
+#1509416962
+chmod 755  run/gunicorn.sock
+#1509416965
+ls -l run
+#1509416977
+bin/gunicorn_start
+#1509416991
+nano bin/gunicorn_start
+#1509417020
+bin/gunicorn_start
+#1509417049
+ls -l dh/run
+#1509417067
+ls -l dh
+#1509417295
+ls -l 
+#1509417346
+nano bin/gunicorn_start
+#1509417371
+bin/gunicorn_start
+#1509417386
+bin/gunicorn_start
+#1509417391
+nano bin/gunicorn_start
+#1509417434
+bin/gunicorn_start
+#1509417449
+deactivate
+#1509417452
+exit
+#1509417471
+source bin/activate
+#1509417475
+bin/gunicorn_start
+#1509417486
+nano bin/gunicorn_start
+#1509417504
+bin/gunicorn_start
+#1509417523
+nano bin/gunicorn_start
+#1509417538
+bin/gunicorn_start
+#1509417542
+nano bin/gunicorn_start
+#1509417559
+bin/gunicorn_start
+#1509417612
+ls run
+#1509417633
+rm -rf run
+#1509417636
+ls run
+#1509417640
+ls 
+#1509417650
+bin/gunicorn_start
+#1509417714
+nano bin/gunicorn_start
+#1509417796
+mkdir run
+#1509417819
+ls
+#1509417831
+ls run
+#1509417857
+rm -rf run
+#1509417863
+ls 
+#1509417871
+mkdir run
+#1509417881
+ls -l
+#1509417934
+touch run/gunicorn.sock
+#1509417942
+tree run
+#1509418366
+mv /dh/run /dh/runold
+#1509418373
+ls dh
+#1509418382
+ls
+#1509418405
+mv /dh/runold /dh/run
+#1509418420
+ls
+#1509418442
+ls /dh/run
+#1509418451
+ls /dh/
+#1509418463
+ls dh
+#1509418541
+mv dh/run dh/runold
+#1509418549
+ls dh
+#1509418568
+nano bin/gunicorn_start
+#1509418610
+bin/gunicorn_start
+#1509418622
+nano bin/gunicorn_start
+#1509418633
+bin/gunicorn_start
+#1509418667
+nano bin/gunicorn_start
+#1509418733
+bin/gunicorn_start
+#1509418753
+nano bin/gunicorn_start
+#1509418771
+bin/gunicorn_start
+#1509418780
+nano bin/gunicorn_start
+#1509418806
+bin/gunicorn_start
+#1509418866
+ls dh
+#1509418881
+nano bin/gunicorn_start
+#1509418894
+ls dh
+#1509418898
+bin/gunicorn_start
+#1509418914
+rm -rf run
+#1509418919
+bin/gunicorn_start
+#1509418945
+rm -rf dh/runold
+#1509418950
+ls dh
+#1509418981
+nano bin/gunicorn_start
+#1509419061
+nano dhru/settings.py
+#1509419224
+nano dhru/urlss.py
+#1509419234
+nano dhru/urls.py
+#1509419279
+bin/gunicorn_start
+#1509419349
+nano blog/urls.py
+#1509419445
+bin/gunicorn_start
+#1509421021
+sqlite3
+#1509421100
+.databases
+#1509421166
+deactivate
+#1509421170
+sqlite3
+#1509421338
+source bin/activate
+#1509421347
+ls
+#1509421372
+sqlite3 db.sqlite3
+#1509421419
+ls dh
+#1509421451
+ls run
+#1509421464
+rm -rf run
+#1509421471
+ls
+#1509422504
+ls
+#1509422523
+ls log
+#1509422532
+ls logs
+#1509422558
+nano logs/nginx-error.log
+#1509423227
+ls dh
+#1509423242
+ls -l
+#1509423255
+ls -l dh
+#1509423464
+/
+#1509423553
+ls dh/static
+#1509423707
+nano blog/templates/blog/base.html
+#1509423755
+bin/gunicorn_start
+#1509424336
+nano blog/templates/blog/about.html
+#1509424408
+bin/gunicorn_start
+#1509424490
+nano blog/templates/blog/about.html
+#1509424515
+bin/gunicorn_start
+#1509424547
+nano blog/templates/blog/about.html
+#1509424608
+bin/gunicorn_start
+#1509424624
+nano blog/templates/blog/about.html
+#1509424692
+bin/gunicorn_start
+#1509424711
+nano blog/templates/blog/about.html
+#1509424747
+bin/gunicorn_start
+#1509424765
+nano blog/templates/blog/about.html
+#1509424815
+bin/gunicorn_start
+#1509424967
+nano dhru/settings.py
+#1509425225
+nano dhru/urls.py
+#1509425539
+ls templates
+#1509425549
+ls templates/account
+#1509425572
+nano templates/account/base.html
+#1509425596
+bin/gunicorn_start
+#1509425750
+bin/gunicorn_start
+#1509425781
+nano dhru/settings.py
+#1509425803
+nano dhru/urls.py
+#1509425820
+bin/gunicorn_start
+#1509425826
+nano dhru/urls.py
+#1509425840
+nano dhru/settings.py
+#1509425862
+bin/gunicorn_start
+#1509425880
+nano dhru/settings.py
+#1509425996
+nano dhru/settings.py
+#1509426173
+bin/gunicorn_start
+#1509426183
+nano dhru/settings.py
+#1509426291
+python manage.py migrate
+#1509426332
+nano dhru/settings.py
+#1509426407
+python manage.py migrate
+#1509426478
+nano dhru/settings.py
+#1509426504
+python manage.py migrate
+#1509426516
+bin/gunicorn_start
+#1509427143
+nano dhru/settings.py
+#1509427216
+nano dhru/urls.py
+#1509427250
+bin/gunicorn_start
+#1509427610
+nano dhru/settings.py
+#1509427699
+nano dhru/settings.py
+#1509427760
+nano dhru/settings.py
+#1509427876
+bin/gunicorn_start
+#1509428376
+git status
+#1509428817
+bin/gunicorn_start
+#1509428837
+nano dhru/settings.py
+#1509428956
+nano dhru/settings.py
+#1509429069
+bin/gunicorn_start
+#1509429960
+ls
+#1509429973
+ls static
+#1509429989
+ls static/admin
+#1509430013
+ls static/blog
+#1509430041
+rm -rf static
+#1509430046
+ls
+#1509430246
+python manage.py collectstatic
+#1509430255
+ls
+#1509430271
+bin/gunicorn_start
+#1509430418
+deactivate
+#1509430421
+exit
+#1509442273
+source bin/activate
+#1509442305
+nano dhru/urls.py
+#1509442318
+bin/gunicorn_start
+#1509442354
+nano dhru/urls.py
+#1509443205
+nano dhru/settings.py
+#1509443238
+source bin/activate
+#1509443242
+nano dhru/settings.py
+#1509443294
+bin/gunicorn_start
+#1509443322
+nano dhru/settings.py
+#1509443423
+bin/gunicorn_start
+#1509443474
+nano dhru/settings.py
+#1509443724
+nano dhru/settings.py
+#1509443841
+ls logs
+#1509443872
+nano logs/nginx-error.log
+#1509444190
+bin/gunicorn_start
+#1509444236
+nano logs/nginx-error.log
+#1509444363
+deactivate
+#1509444368
+exit
+#1509444518
+source bin/activate
+#1509444523
+bin/gunicorn_start
+#1509444566
+deactivate
+#1509444573
+logout
+#1509444610
+source bin/activate
+#1509444613
+bin/gunicorn_start
+#1509444633
+deactivate
+#1509444635
+logout
+#1509444647
+source bin/activate
+#1509444650
+bin/gunicorn_start
+#1509444672
+deactivate
+#1509444676
+logout

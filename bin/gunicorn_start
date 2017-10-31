@@ -1,8 +1,9 @@
 #!/bin/bash
 
 NAME="dhru"                                  # Name of the application
-DJANGODIR=/dh             # DJANGODIR=/dhapps/dh/dhproject     Django project directory
-SOCKFILE=/dh/run/gunicorn.sock  # we will communicte using this unix socket
+DJANGODIR=/dh             # DJANGODIR=/dh     Django project directory
+# we will communicte using this unix socket
+SOCKFILE=./run/gunicorn.sock  # /dh/run/gunicorn.sock
 USER=dhuser                                        # the user to run as
 GROUP=dh                                     # the group to run as
 NUM_WORKERS=3                                # how many worker processes should Gunicorn spawn
