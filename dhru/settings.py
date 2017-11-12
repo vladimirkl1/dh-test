@@ -14,6 +14,7 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 # Quick-start development settings - unsuitable for production
@@ -27,8 +28,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['digital-human.ru', 'www.digital-human.ru']
 
-# Application definition
-SITE_ID = 1
+# Ensure SITE_ID is set sites app
+SITE_ID = 2
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -44,7 +45,9 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     # ... include the providers you want to enable:
     'allauth.socialaccount.providers.vk',
+    'allauth.socialaccount.providers.facebook',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -61,7 +64,7 @@ ROOT_URLCONF = 'dhru.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [],                           #['%stemplates/'% (PROJECT_DIR),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,12 +72,18 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                # `allauth` needs this from django
+                #`allauth` needs this from django
                 'django.template.context_processors.request',
             ],
         },
     },
 ]
+
+
+# Add the 'allauth' backend to AUTHENTICATION_BACKEND and keep default ModelBackend
+AUTHENTICATION_BACKENDS = [ 'django.contrib.auth.backends.ModelBackend', 'allauth.account.auth_backends.AuthenticationBackend']
+
+
 
 WSGI_APPLICATION = 'dhru.wsgi.application'
 
@@ -121,14 +130,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-AUTHENTICATION_BACKENDS = (
-    # Needed to login by username in Django admin, regardless of `allauth`
-    'django.contrib.auth.backends.ModelBackend',
-
-    # `allauth` specific authentication methods, such as login by e-mail
-    'allauth.account.auth_backends.AuthenticationBackend',
-)
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
@@ -139,17 +140,40 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
-LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
+# EMAIL_BACKEND so allauth can proceed to send confirmation emails
+# ONLY for development/testing use console
+EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 
-
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# Custom allauth settings Use email as the primary identifier
+# Custom allauth settings
+# Use email as the primary identifier
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
+
 # Make email verification mandatory to avoid junk email accounts
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+
 # Eliminate need to provide username, as it's a very old practice
 ACCOUNT_USERNAME_REQUIRED = False
 
-SOCIALACCOUNT_PROVIDERS = {'vk': {} }
+LOGIN_REDIRECT_URL = '/'
+
+LOGOUT_REDIRECT_URL = '/'
+
+SOCIALACCOUNT_PROVIDERS =  {'facebook':
+                           	{'METHOD': 'oauth2',
+                            		'SCOPE': ['email'],
+                             		'AUTH_PARAMS': {'auth_type': 'reauthenticate'},
+                             		'LOCALE_FUNC': lambda request: 'en_US',
+                             		#'VERSION': 'v2.10',
+			     		'VERIFIED_EMAIL': False
+                            },
+
+                             'vk':
+				{       #'METHOD': 'oauth2',
+                         		#'SCOPE': ['email'],
+                             		#'AUTH_PARAMS': {'auth_type': 'reauthenticate'},
+                             		#'LOCALE_FUNC': lambda request: 'ru_RU',
+                            		#'VERSION': 'v2.10',
+			     		#'VERIFIED_EMAIL': False
+                            	}
+                            }
