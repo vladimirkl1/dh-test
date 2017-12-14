@@ -1,191 +1,3 @@
-touch templates/account/login.html
-#1509387622
-touch templates/account/logout.html
-#1509387648
-touch templates/account/base.html
-#1509387669
-nano templates/account/login.html
-#1509387708
-nano templates/account/logout.html
-#1509387773
-nano templates/account/base.html
-#1509387831
-nano dhru/urls.py
-#1509387866
-nano dhru/settings.py
-#1509388122
-nano dhru/settings.py
-#1509388200
-source bin/activate
-#1509388205
-nano dhru/settings.py
-#1509388331
-source bin/activate
-#1509388337
-nano dhru/settings.py
-#1509388772
-bin/gunicorn_start
-#1509388878
-nano dhru/settings.py
-#1509389173
-source bin/activate
-#1509389176
-nano dhru/settings.py
-#1509389215
-bin/gunicorn_start
-#1509389357
-nano dhru/settings.py
-#1509389393
-bin/gunicorn_start
-#1509389530
-touch templates/account/account_inactive.html
-#1509389554
-touch templates/account/email.html
-#1509389572
-touch templates/account/email_confirm.html
-#1509389592
-touch templates/account/password_change.html
-#1509389613
-touch templates/account/password_reset.html
-#1509389634
-touch templates/account/password_reset_done.html
-#1509389655
-touch templates/account/password_reset_from_key.html
-#1509389678
-touch templates/account/password_reset_from_key_done.html
-#1509389699
-touch templates/account/password_set.html
-#1509389740
-touch templates/account/signup.html
-#1509389759
-touch templates/account/signup_closed.html
-#1509389783
-touch templates/account/verification_sent.html
-#1509389806
-touch templates/account/verified_email_required.html
-#1509389821
-bin/gunicorn_start
-#1509390653
-deactivate
-#1509390657
-exit
-#1509390697
-source bin/activate
-#1509390702
-bin/gunicorn_start
-#1509390744
-ls
-#1509390768
-ls static
-#1509390829
-exit
-#1509415888
-source bin/activate
-#1509415918
-nano bin/gunicorn_start
-#1509416086
-nano /dh/run/
-#1509416139
-nano /dh/run/gunicorn.sock
-#1509416185
-nano dhru/settings.py
-#1509416251
-bin/gunicorn_start
-#1509416276
-nano bin/gunicorn_start
-#1509416304
-pwd
-#1509416314
-nano bin/gunicorn_start
-#1509416338
-bin/gunicorn_start
-#1509416363
-mkdir run
-#1509416382
-ls
-#1509416390
-ls run
-#1509416419
-touch run/gunicorn.sock
-#1509416423
-ls run
-#1509416430
-bin/gunicorn_start
-#1509416457
-nano bin/gunicorn_start
-#1509416474
-bin/gunicorn_start
-#1509416515
-nano bin/gunicorn_start
-#1509416532
-bin/gunicorn_start
-#1509416560
-nano bin/gunicorn_start
-#1509416615
-bin/gunicorn_start
-#1509416627
-nano bin/gunicorn_start
-#1509416821
-ls -l
-#1509416873
-source bin/activate
-#1509416888
-ls -l
-#1509416923
-ls -l run
-#1509416962
-chmod 755  run/gunicorn.sock
-#1509416965
-ls -l run
-#1509416977
-bin/gunicorn_start
-#1509416991
-nano bin/gunicorn_start
-#1509417020
-bin/gunicorn_start
-#1509417049
-ls -l dh/run
-#1509417067
-ls -l dh
-#1509417295
-ls -l 
-#1509417346
-nano bin/gunicorn_start
-#1509417371
-bin/gunicorn_start
-#1509417386
-bin/gunicorn_start
-#1509417391
-nano bin/gunicorn_start
-#1509417434
-bin/gunicorn_start
-#1509417449
-deactivate
-#1509417452
-exit
-#1509417471
-source bin/activate
-#1509417475
-bin/gunicorn_start
-#1509417486
-nano bin/gunicorn_start
-#1509417504
-bin/gunicorn_start
-#1509417523
-nano bin/gunicorn_start
-#1509417538
-bin/gunicorn_start
-#1509417542
-nano bin/gunicorn_start
-#1509417559
-bin/gunicorn_start
-#1509417612
-ls run
-#1509417633
-rm -rf run
-#1509417636
-ls run
-#1509417640
 ls 
 #1509417650
 bin/gunicorn_start
@@ -995,4 +807,173 @@ bin/gunicorn_start
 #1510479375
 bin/gunicorn_start
 #1510480175
+git status
+#1510482282
+source bin/activate
+#1510482288
+bin/gunicorn_start
+#1510482443
+bin/gunicorn_start
+#1510491197
+source bin/activate
+#1510491199
+bin/gunicorn_start
+#1510491252
+deactivate
+#1510491256
+logout
+#1510812822
+source bin/activate
+#1510812824
+bin/gunicorn_start
+#1510812937
+deactivate
+#1510812940
+logout
+#1510478987
+source bin/activate
+#1510478997
+bin/gunicorn_stop
+#1510479287
+bin/gunicorn_start
+#1510481712
+source bin/activate
+#1510481715
+bin/gunicorn_start
+#1510481891
+bin/gunicorn_start
+#1510481919
+source bin/activate
+#1510481922
+bin/gunicorn_start
+#1510482251
+bin/gunicorn_start
+#1510480206
+source bin/activate
+#1510480225
+git status
+#1510480246
+git add --all .
+#1510480256
+git status
+#1510480350
+git commit -m "Add allauth, templates/account move blog/templates."
+#1510480362
+git push
+#1510480448
+git push -f
+#1510481682
+bin/gunicorn_start
+#1510482481
+source bin/activate
+#1510482483
+bin/gunicorn_start
+#1510482555
+bin/gunicorn_start
+#1510482606
+bin/gunicorn_start
+#1510482884
+bin/gunicorn_start
+#1510482924
+source bin/activate
+#1510482926
+bin/gunicorn_start
+#1510489123
+bin/gunicorn_start
+#1510489158
+source bin/activate
+#1510489160
+bin/gunicorn_start
+#1510489494
+bin/gunicorn_start
+#1510489646
+source bin/activate
+#1510489650
+bin/gunicorn_start
+#1510490167
+bin/gunicorn_start
+#1510489537
+source bin/activate
+#1510489540
+bin/gunicorn_start
+#1510489614
+bin/gunicorn_start
+#1510490194
+source bin/activate
+#1510490196
+bin/gunicorn_start
+#1510490571
+bin/gunicorn_start
+#1510490612
+source bin/activate
+#1510490614
+bin/gunicorn_start
+#1510490740
+bin/gunicorn_start
+#1511174132
+source bin/activate
+#1511174136
+bin/gunicorn_start
+#1510812605
+source bin/activate
+#1510812610
+bin/gunicorn_start
+#1510812687
+bin/gunicorn_start
+#1510812794
+bin/gunicorn_start
+#1511176007
+source bin/activate
+#1511176015
+bin/gunicorn_stop
+#1511176036
+bin/gunicorn_start
+#1511176146
+bin/gunicorn_start
+#1511176200
+bin/gunicorn_start
+#1511176247
+bin/gunicorn_start
+#1511176283
+deactivate
+#1511176287
+logout
+#1511730620
+source bin/activate
+#1511730641
+sudo apt install sqlite3
+#1511730675
+deactivate
+#1511730678
+logout
+#1511730755
+source bin/activate
+#1511730790
+scp "d:\BOOK\Python\Django\1--Django__BOOK\Beginning Django--Web Application Development and Deployment with Python_Rubio_2017\beg-django-master\beginningdjango-master\10_django_users_allauth\coffeehouse\templates\account\" root@bi-grouplabs:/dh/templates/
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Suggested packages:
+  sqlite3-doc
+The following NEW packages will be installed:
+  sqlite3
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 515 kB of archives.
+After this operation, 1,938 kB of additional disk space will be used.
+Get:1 http://mirror.yandex.ru/ubuntu xenial/main amd64 sqlite3 amd64 3.11.0-1ubuntu1 [515 kB]
+Fetched 515 kB in 1s (470 kB/s)
+Selecting previously unselected package sqlite3.
+(Reading database ... 71705 files and directories currently installed.)
+Preparing to unpack .../sqlite3_3.11.0-1ubuntu1_amd64.deb ...
+Unpacking sqlite3 (3.11.0-1ubuntu1) ...
+Setting up sqlite3 (3.11.0-1ubuntu1) ...
+
+
+#1511730958
+./manage.py dbshell
+#1513234763
+source bin/activate
+#1513234794
+bin/gunicorn_start
+#1513235031
 git status

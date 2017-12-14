@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4calyikngz=*_t=00yrvr$detgl9x4@pwl5+8fgu1t++w3%w*x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['digital-human.ru', 'www.digital-human.ru']
 
@@ -64,7 +64,7 @@ ROOT_URLCONF = 'dhru.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],                           #['%stemplates/'% (PROJECT_DIR),],
+        'DIRS': ['templates/'],   #[os.path.join(BASE_DIR, 'templates/')],    #['%stemplates/'% (PROJECT_DIR),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,7 +120,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'en-US'
 
 TIME_ZONE = 'UTC'
 
